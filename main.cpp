@@ -466,7 +466,7 @@ int main(int argc, char **argv) {
       pchMessageStart[1] = 0xe6;
       pchMessageStart[2] = 0xd5;
       pchMessageStart[3] = 0xca;
-      unsigned char pchMessageStart[4] = { 0x0f, 0x18, 0x0e, 0x06 };
+      unsigned char pchMessageStart[4] = { 0xf5, 0xe6, 0xd5, 0xca };
       seeds = testnet_seeds;
       fTestNet = true;
   }
